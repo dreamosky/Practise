@@ -1,0 +1,12 @@
+import turtle
+myturtle=turtle.Turtle()
+myturtle.shape("turtle")
+myturtle.forward(200)
+myturtle.right(90)
+myturtle.forward(200)
+myturtle.right(90)
+myturtle.forward(200)
+myturtle.right(90)
+myturtle.forward(200)
+myturtle.right(90)
+turtle.mainloop()

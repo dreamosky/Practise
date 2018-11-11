@@ -1,0 +1,127 @@
+{
+  "id": "fdf44a0d-fb9d-4e40-92c5-33f554033b55",
+  "version": "1.1",
+  "name": "LH",
+  "url": "https://www.chintai.net",
+  "tests": [{
+    "id": "e2735672-7173-4497-9930-d3f1ea2ec172",
+    "name": "LH",
+    "commands": [{
+      "id": "74d4bf29-28c4-459c-9679-c4b2dd30b8ab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cac3339-96ec-4255-a836-b60ebcce8b18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "221155a9-c93e-4c94-8174-7ff4662ea296",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section_list_box > dl:nth-child(5) li:nth-child(1) > a:nth-child(1)",
+      "targets": [
+        ["css=.section_list_box > dl:nth-child(5) li:nth-child(1) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'大阪')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/section[3]/div[2]/dl[5]/dd/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/osaka/')])[5]", "xpath:href"],
+        ["xpath=//dl[5]/dd/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1d7b150-e580-4530-911f-ab3b00d86d65",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=江坂駅",
+      "targets": [
+        ["linkText=江坂駅", "linkText"],
+        ["css=.stationranking_box li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'江坂駅')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/section[2]/div[2]/div/div/ol/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/osaka/ensen/000006445/list/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74fef56a-12b8-49d5-b253-a727ad4a705f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=江坂駅",
+      "targets": [
+        ["linkText=江坂駅", "linkText"],
+        ["css=.stationranking_box li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'江坂駅')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/section[2]/div[2]/div/div/ol/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/osaka/ensen/000006445/list/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdfc4050-a203-47d4-8bdb-eaac27c0ffb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.icn_arrow_open",
+      "targets": [
+        ["css=span.icn_arrow_open", "css"],
+        ["css=.js_popular_ranking_more_btn > .icn_arrow_open", "css:finder"],
+        ["xpath=//div[@id='container']/div[2]/div/section[2]/div[2]/div/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "297409a3-31fb-4c32-b47b-98e841a0f9d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=豊中市",
+      "targets": [
+        ["linkText=豊中市", "linkText"],
+        ["css=.arearanking_box li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'豊中市')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/section[2]/div[2]/div/div[2]/ol/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/osaka/area/27203/list/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ol/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0100c7d8-e191-409f-a587-f712114fb065",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,14105)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd88df66-ddb4-4c0c-bc51-855738fbec81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list_pager:nth-child(1) li:nth-child(2) span > span",
+      "targets": [
+        ["css=.list_pager:nth-child(1) li:nth-child(2) span > span", "css:finder"],
+        ["xpath=//div[@id='article']/div/div/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/ul/li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b250e21-e074-4713-bfc1-06ece26f7650",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,11409)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "80820a2d-e7a1-4b2f-93e8-8de2f292b72c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e2735672-7173-4497-9930-d3f1ea2ec172"]
+  }],
+  "urls": ["https://www.chintai.net/"],
+  "plugins": []
+}
