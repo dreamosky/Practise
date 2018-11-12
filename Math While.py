@@ -5,7 +5,7 @@ def linearSearch(values, target):
     return -1
 
 from random import randint
-n=10
+n=20
 values=[]
 for i in range(n):
     values.append(randint(1,100))
