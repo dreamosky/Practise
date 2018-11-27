@@ -1,7 +1,8 @@
 import turtle
+turtle.screensize(1000, 600)
 myturtle=turtle.Turtle()
 myturtle.color('red')
-myturtle.shape("turtle")
+myturtle.shape("blank")
 myturtle.begin_fill()
 myturtle.forward(400)
 myturtle.right(144)
